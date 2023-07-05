@@ -3,7 +3,7 @@
 <img align="right" width="170px" style="margin-top:-20px" src="https://user-images.githubusercontent.com/71572039/216510822-39114072-9905-4308-b0ee-3a4bddc8b76f.png">
 </div>
 
-  
+</br>
 </br>
 <div align="justify">
 - 👷🏻‍♀️Projeto Final Programação Web para Iniciantes, com objetivo de criar um site sobre uma mulher importante na tecnologia que impactou significativamente no mundo de STEM (Ciências, Tecnologia, Engenharia e Matemática), utilizando HTML5, CSS3 e JavaScript.
