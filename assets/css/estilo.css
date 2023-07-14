@@ -11,7 +11,7 @@ body{
 }
 
 .header {
-    
+
     position: relative; 
     width: 50%;
     margin: 0 auto;
@@ -111,6 +111,8 @@ body{
     font-weight: 400;
     color: var(--cor-destaque);
     margin: 16px 0;
+    text-align: center;
+    justify-content: center;
 }
 
 .biografia__descricao {
