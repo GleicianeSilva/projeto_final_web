@@ -10,14 +10,19 @@ body{
     --cor-destaque: #ACACE6;
 }
 
-
 .header {
-    padding: 1rem;
-    position: relative;  
+    
+    position: relative; 
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    display: block;
 }
     
-    
-
 .header_titulo{
     font-size: 18px;
     text-align: center;
@@ -44,20 +49,25 @@ body{
 }
 
 .icone_logo {
+    
     position: absolute;
     max-width: 70px;
     max-height: 70px;
     top: 4px;
-    right: 95%;
-    
+    right: 95%; 
+    height: auto;
+    width: auto;
 }
 
 .icone_logo_2 {
+    
     position: absolute;
     max-width: 70px;
     max-height: 70px;
     top: 4px;
     left: 95%;
+    height: auto;
+    width: auto;
 }
 
 .icone {
