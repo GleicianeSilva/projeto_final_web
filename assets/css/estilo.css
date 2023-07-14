@@ -10,6 +10,12 @@ body{
     --cor-destaque: #ACACE6;
 }
 
+@media (max-width: 480px) {
+    .topicos {
+      font-size: 16px;
+    }
+  }
+
 .header {
 
     position: relative; 
@@ -116,7 +122,7 @@ body{
 }
 
 .biografia__descricao {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0;
     width: 100%;
@@ -184,7 +190,7 @@ img{
 }
 
 .topicos{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0;
     width: 100%;
