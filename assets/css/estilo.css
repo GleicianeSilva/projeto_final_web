@@ -6,8 +6,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
-    color: #f4f4f4;
-    --cor-destaque: #ACACE6;
+    color: #ffffff;
+    --cor-destaque: #7e7ed6;
 }
 
 @media (max-width: 480px) {
@@ -18,7 +18,7 @@ body{
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
 
-    body{
+    body {
         max-width: 480px;
         min-width: 320px;
         align-items: center;
@@ -48,7 +48,6 @@ body{
         min-width: 1025px;
     }
 }
-
 
 .header {
 
@@ -88,6 +87,70 @@ body{
     border-radius: 3px;
 }
 
+.check{
+    background: #aaa7a7;
+    transition: background .5s;
+}
+
+.bi-sun{
+    font-size: 0.9rem;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    color: #111;
+}
+
+.bi-moon{
+    font-size: 0.9rem;
+    position: absolute;
+    top:2px;
+    right: 3px;
+    color: #111;
+}
+
+.check.active{
+
+    background: #123;
+}
+
+.checkbox .bi-moon{
+    display: block;
+}
+
+.checkbox{
+    width: 55px;
+    height: 20px;
+    top: 20px;
+    right: 10px;
+    border: 2px solid #fff;
+    border-radius: 60px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.checkbox:before
+{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    transition: left .5s;
+
+}
+
+.checkbox.active:before
+{
+    left: 33px;
+
+}
+
+
+
 .icone_logo {
     
     position: absolute;
@@ -116,6 +179,7 @@ body{
 }
 
 .icone--texto{
+    color: #fff;
     margin: 0 8px;
     animation: pulsar 1s infinite alternate;
 }
@@ -162,6 +226,7 @@ body{
     width: 100%;
     max-width: 650px;
     text-align: justify;
+    text-indent: 30px;
 }
 
 .container_carrosel{
@@ -282,7 +347,7 @@ img{
 .footer__texto{
     font-size: 14px;
     font-weight: 400;
-    color: #313131;
+    color: #fcfcfc;
     display: flex;
     align-items: center;
 }

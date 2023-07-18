@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" type="image/jpg" href="assets/icons/Ada_perfil.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,72 +19,78 @@
 
 </head>
 <body>
+    <div class="check">
+        <div class="checkbox">
+            <label for="change-theme">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
+            </label>
+        </div>
+        <header class="header">
 
-    <header class="header">
-
-        <h1 class="header_titulo"><strong>Primeira Programadora da História</strong></h1>
-
-        <a href="index.html" target="_blank" class="header__logo">
-            <img class="icone_logo" src="assets/icons/logo_Ada.png" title="Ada Lovelace" alt="Ada Lovelace">
-            <img class="icone_logo_2" src="assets/icons/maquina_diferencial.png" title="Ada Lovelace" alt="Ada Lovelace">
-
-        </a>
-
-    </header>
-
-    <main class="main">
-        <div class="biografia">
-            <img class="biografia__foto" src="assets/imagens/Ada_foto.webp" alt="Ada Lovelace - Biografia" >
-            <h1 class="biografia__nome">Augusta Ada Byron King (Ada Lovelace)</h1>
-            <p class="biografia__descricao">Augusta Ada Byron King, conhecida como <strong>“Ada Lovelace"</strong> e <strong>"Condessa de Lovelace"</strong>, nasceu em 10 de dezembro de 1815 em Byron, Londres. Desde a infância, a menina recebia da mãe educação em matemática, lógica e música. Na juventude, aos 20 anos, ela casou-se com William Lord King, tornando-se Lady Lovelace em 1838. Ela teve três filhos e aos 36 anos faleceu em decorrência de câncer de útero.</p>
-            <br> 
-            <p class="biografia__descricao">Primeira programadora da história; conhecida como encantadora de números, mãe dos softwares e criadora do primeiro programa de computadores da história. Foi uma mulher de extrema importância como  programadora e um dos grandes nomes das áreas de ciência, tecnologia, engenharia e matemática <strong><a href="https://www.geekie.com.br/blog/stem-ensino-ciencias-matematica" target="_blank" rel="external" class="link" title="Ciência, Tecnologia, Engenharia e Matemática">(STEM)</link></strong>. Ada também é creditada como como inventora do primeiro algoritmo para ser processado em uma máquina.</p> 
-            <br>
-            </div>
-            <div class="container_carrosel">
-                <button id="prev_button"><img src="assets/icons/esquerda.png" alt="prev-button"></button>
-                <div class="container_images">
-                    <img src="assets/imagens/Ada_1.jpeg" alt="Ada 1" class="carrosel on">
-
-                    <img src="assets/imagens/Ada_2.png" alt="Ada 2" class="carrosel">
-
-                    <img src="assets/imagens/Ada_3.jpg" alt="Ada 3" class="carrosel">
-
-                    <img src="assets/imagens/Ada_4.png" alt="Ada 4" class="carrosel">            
-                </div>
-                <button id="next_button"><img src="assets/icons/direita.png" alt="next-button"></button>
-            </div>
-            <br>
-            <div class="topicos">
-                <h2><strong>Principais Acontecimentos</strong></h2> 
-                <ul>
-                    <li><strong>1833 -</strong> Inicia sua parceria com Charles Babbage, professor de matemática e o inventor da Máquina Analítica;</li>
-                    <li><strong>1835 -</strong> Casou com William King-Noel;</li>
-                    <li><strong>1838 -</strong> Torna-se Lady Lovelace;</li>
-                    <li><strong>1842 -</strong> Desenhou o primeiro algoritmo usado por uma máquina analítica (calculadora);</li>
-                    <li><strong>1843 -</strong> Traduzir um artigo sobre motor de um pesquisador italiano (Menabrea);</li>
-                    <li><strong>1852 -</strong> Morre aos 36 anos devido a um câncer de útero;</li>
-                    <li><strong>1853 -</strong> É publicada as notas de Ada sobre a máquina analítica de Babbage;</li>
-                    <li><strong>1981 -</strong> Criação do Prêmio Ada Lovelace pela Associação de Mulheres na Computação;</li>
-                    <li><strong>1982 -</strong> Uma linguagem de programação estruturada recebeu o nome de “Ada” em homenagem a ela;</li>
-                    <li><strong>2009 -</strong> Foi criado o Ada Lovelace Day para incentivar mulheres na ciência.</li>
-                </ul>  
-            </div>  
-            <br>
-            <div class="video">
-                <h2>Vídeo sobre Ada Lovelace</h2>
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jrze9IyUgIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div> 
-            <br> 
-            <br>
-    </main>
-    <br>
-    <footer class="footer">
-        <span class="footer__texto" title="Desenvolvedora">
-            Feito pela
-            <img class="icone icone--texto" src="assets/icons/programmer.svg" alt="Desenvolvedora">&copy; Gleiciane Silva
-        </span>
-    </footer>
+            <h1 class="header_titulo"><strong>Primeira Programadora da História</strong></h1>
     
+            <a href="index.html" target="_blank" class="header__logo">
+                <img class="icone_logo" src="assets/icons/logo_Ada.png" title="Ada Lovelace" alt="Ada Lovelace">
+                <img class="icone_logo_2" src="assets/icons/maquina_diferencial.png" title="Ada Lovelace" alt="Ada Lovelace">
+    
+            </a>
+    
+        </header>
+    
+        <main class="main">
+            <div class="biografia">
+                <img class="biografia__foto" src="assets/imagens/Ada_foto.webp" alt="Ada Lovelace - Biografia" >
+                <h1 class="biografia__nome">Augusta Ada Byron King (Ada Lovelace)</h1>
+                <p class="biografia__descricao">Augusta Ada Byron King, conhecida como <strong>“Ada Lovelace"</strong> e <strong>"Condessa de Lovelace"</strong>, nasceu em 10 de dezembro de 1815 em Byron, Londres. Desde a infância, a menina recebia da mãe educação em matemática, lógica e música. Na juventude, aos 20 anos, ela casou-se com William Lord King, tornando-se Lady Lovelace em 1838. Ela teve três filhos e aos 36 anos faleceu em decorrência de câncer de útero.</p>
+                <br> 
+                <p class="biografia__descricao">Primeira programadora da história; conhecida como encantadora de números, mãe dos softwares e criadora do primeiro programa de computadores da história. Foi uma mulher de extrema importância como  programadora e um dos grandes nomes das áreas de ciência, tecnologia, engenharia e matemática <strong><a href="https://www.geekie.com.br/blog/stem-ensino-ciencias-matematica" target="_blank" rel="external" class="link" title="Ciência, Tecnologia, Engenharia e Matemática">(STEM)</link></strong>. Ada também é creditada como como inventora do primeiro algoritmo para ser processado em uma máquina.</p> 
+                <br>
+                </div>
+                <div class="container_carrosel">
+                    <button id="prev_button"><img src="assets/icons/esquerda.png" alt="prev-button"></button>
+                    <div class="container_images">
+                        <img src="assets/imagens/Ada_1.jpeg" alt="Ada 1" class="carrosel on">
+    
+                        <img src="assets/imagens/Ada_2.png" alt="Ada 2" class="carrosel">
+    
+                        <img src="assets/imagens/Ada_3.jpg" alt="Ada 3" class="carrosel">
+    
+                        <img src="assets/imagens/Ada_4.png" alt="Ada 4" class="carrosel">            
+                    </div>
+                    <button id="next_button"><img src="assets/icons/direita.png" alt="next-button"></button>
+                </div>
+                <br>
+                <div class="topicos">
+                    <h2><strong>Principais Acontecimentos</strong></h2> 
+                    <ul>
+                        <li><strong>1833 -</strong> Inicia sua parceria com Charles Babbage, professor de matemática e o inventor da Máquina Analítica;</li>
+                        <li><strong>1835 -</strong> Casou com William King-Noel;</li>
+                        <li><strong>1838 -</strong> Torna-se Lady Lovelace;</li>
+                        <li><strong>1842 -</strong> Desenhou o primeiro algoritmo usado por uma máquina analítica (calculadora);</li>
+                        <li><strong>1843 -</strong> Traduzir um artigo sobre motor de um pesquisador italiano (Menabrea);</li>
+                        <li><strong>1852 -</strong> Morre aos 36 anos devido a um câncer de útero;</li>
+                        <li><strong>1853 -</strong> É publicada as notas de Ada sobre a máquina analítica de Babbage;</li>
+                        <li><strong>1981 -</strong> Criação do Prêmio Ada Lovelace pela Associação de Mulheres na Computação;</li>
+                        <li><strong>1982 -</strong> Uma linguagem de programação estruturada recebeu o nome de “Ada” em homenagem a ela;</li>
+                        <li><strong>2009 -</strong> Foi criado o Ada Lovelace Day para incentivar mulheres na ciência.</li>
+                    </ul>  
+                </div>  
+                <br>
+                <div class="video">
+                    <h2>Vídeo sobre Ada Lovelace</h2>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jrze9IyUgIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div> 
+                <br> 
+                <br>
+        </main>
+        <br>
+        <footer class="footer">
+            <span class="footer__texto" title="Desenvolvedora">
+                Feito pela
+                <img class="icone icone--texto" src="assets/icons/programmer.svg" alt="Desenvolvedora">&copy; Gleiciane Silva
+            </span>
+        </footer>
+    </div>    
 </body>
 </html>

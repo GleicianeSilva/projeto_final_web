@@ -36,3 +36,12 @@ btnNext.addEventListener('click', nextCarrosel)
 btnPrev.addEventListener('click', prevtCarrosel)
 
 setInterval(nextCarrosel, 5000)
+
+const checkbox = document.querySelector('.checkbox');
+const check = document.querySelector('.check');
+
+checkbox.onclick = function()
+{
+    check.classList.toggle('active')
+    checkbox.classList.toggle('active')
+}
