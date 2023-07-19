@@ -21,7 +21,7 @@ body{
     body {
         max-width: 480px;
         min-width: 320px;
-        align-items: center;
+        position: relative;
     }
 }
 
@@ -97,7 +97,7 @@ body{
     position: absolute;
     top: 2px;
     left: 4px;
-    color: #111;
+    color: #fde613;;
 }
 
 .bi-moon{
@@ -105,16 +105,11 @@ body{
     position: absolute;
     top:2px;
     right: 3px;
-    color: #111;
+    color: #908484;
 }
-
 .check.active{
 
     background: #123;
-}
-
-.checkbox .bi-moon{
-    display: block;
 }
 
 .checkbox{
@@ -148,8 +143,6 @@ body{
     left: 33px;
 
 }
-
-
 
 .icone_logo {
     
