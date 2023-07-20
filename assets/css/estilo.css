@@ -182,7 +182,7 @@ body{
     max-width: 700px;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0 15px 0px 15px;
+    padding: 0 20px 0px 20px;
 }
 
 .biografia {
@@ -277,8 +277,8 @@ body{
 }
 
 img{
-    width: 200px;
-    height: 270px;
+    width: 100px;
+    height: 150px;
 }
 
 .topicos{
@@ -302,19 +302,32 @@ img{
 }
 
 .video{
-    position: relative;
+/*     position: relative;
     width: 100%;
     padding-bottom: 50%;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
 
 .video iframe{
 
-    position: absolute;
+/*     position:absolute;
     width: 100%; 
     height: 100%;
-    border: none;
+    border: none; */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
 }
 
 .video h2{
