@@ -54,12 +54,11 @@ body{
     position: relative; 
     width: 50%;
     margin: 0 auto;
-    padding: 1rem; 
-    display: flex;
+    padding: 1rem;
+    display: flex; 
     justify-content: center;
     text-align: center;
     align-items: center; 
-    display: block;
 }
     
 .header_titulo{
@@ -90,6 +89,7 @@ body{
 .check{
     background: #aaa7a7;
     transition: background .5s;
+
 }
 
 .bi-sun{
@@ -150,7 +150,7 @@ body{
     max-width: 70px;
     max-height: 70px;
     top: 4px;
-    right: 95%; 
+    right: 90%; 
     height: auto;
     width: auto;
 }
@@ -158,10 +158,10 @@ body{
 .icone_logo_2 {
     
     position: absolute;
-    max-width: 70px;
+    max-width: 55px;
     max-height: 70px;
     top: 4px;
-    left: 95%;
+    left: 90%;
     height: auto;
     width: auto;
 }
