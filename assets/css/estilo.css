@@ -113,7 +113,7 @@ body{
 }
 
 .checkbox{
-    width: 55px;
+    width: 45px;
     height: 20px;
     top: 20px;
     right: 2px;
@@ -140,7 +140,7 @@ body{
 
 .checkbox.active:before
 {
-    left: 33px;
+    left: 23px;
 
 }
 
